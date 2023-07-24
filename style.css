@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,900&family=Sacramento&display=swap');
+
+
+*{  margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+ }
+
+body{
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    overflow: auto;
+}
+
+.innerbox{
+    width: 350px;
+    height: 500px;
+    padding-top: 0;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 50px;
+    background-color: #ffffff09;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #000000;
+    z-index: 2;
+}
+.signup-header h1{
+    font-size: 3rem;
+    color: #e2d9e2da;
+    text-shadow: 5px 5px 8px rgba(37, 1, 31, 0.877);
+    text-align: center;
+}
+
+.signup-header p{
+    font-size: 0.65rem ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.sign-body{
+    margin: 20px 0;
+}
+
+.sign-body p{
+    margin: 10px 0;
+}
+.sign-body p label{
+    color: #ffffffce;
+    display: block;
+    margin-top: -13px;
+    font-size: 1rem;
+    
+}
+
+.sign-body p input{
+    width: 100%;
+    margin: 1px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.425);
+    border-radius: 4px;
+    font-size: 0.7rem;
+    padding: 10px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#submit{
+    margin: 10px 0 0 0;
+    font-size: .8rem;
+    background-color: rgba(143, 57, 131, 0.767);
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color:#200318;
+}
+
+.signup-footer p {
+        font-size: ;
+        margin: -10px;
+        color: #dfdfdf9d;
+        text-align: center;
+}
+
+.signup-footer p a{
+    color:#ffffff; 
+}
+
+.c1 {
+    top: 100px;
+    left: 60px;
+    width: 200px;
+     height: 200px;
+     border-radius: 100px;
+     background: linear-gradient(to top right, #f3e6e60e, #ffffffcc);
+     position: absolute;
+   }
+
+
+.c2 {
+     bottom: 50px;
+     right: 50px;
+     width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background: linear-gradient(to top right, #f3e6e60e, #ffffffcc);
+      position: absolute;
+    }
